@@ -1,16 +1,108 @@
-# React + Vite
+# WinGuide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WinGuide is a modern React application that provides practical Windows guides to help users improve performance, security, stability, and overall user experience.
 
-Currently, two official plugins are available:
+Designed primarily for beginners and low-end PC users, WinGuide offers easy-to-follow guides with a clean, responsive interface while supporting both **Windows 10** and **Windows 11**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🌐  Live Demo
 
-## React Compiler
+https://mayank314mk.github.io/WinGuide/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### 🚀 Performance
+
+Improve your PC's responsiveness without sacrificing Windows quality.
+
+- Install essential drivers
+- Disable unnecessary startup programs
+- Optimize power settings
+- Maintain free space on the Windows drive
+- Use Windows Defender
+
+### 💡 Tips
+
+Helpful Windows recommendations and customization guides.
+
+- Install Genuine Windows
+- Windows Update
+- Registry Tweaks
+
+### Registry Tweaks
+
+Download ready-to-use Registry files with both **Apply** and **Undo** versions.
+
+Included tweaks:
+
+- Dark Mode
+- Auto Colorization
+- Transparent Taskbar
+- Small Taskbar Icons (Windows 10)
+- Offline Search
+- Classic Context Menu (Windows 11)
+
+---
+
+## Tech Stack
+
+- React
+- React Router
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## Screenshots
+
+> Add project screenshots here.
+
+---
+
+## Key Features
+
+- Responsive design
+- Clean and modern UI
+- Reusable React components
+- Organized project structure
+- Downloadable Registry (.reg) files
+- Mobile-friendly navigation
+- Beginner-friendly Windows guides
+
+---
+
+## What I Learned
+
+This project helped me strengthen my understanding of:
+
+- React Components
+- React Router
+- Component Reusability
+- Layout Composition
+- Responsive Web Design
+- Static Asset Management
+- Project Organization
+- UI/UX Design
+
+---
+
+## Installation
+
+```bash
+git clone <repository-url>
+
+cd winguide
+
+npm install
+
+npm run dev
+```
+
+---
+
+## License
+
+This project is intended for educational and personal use.
