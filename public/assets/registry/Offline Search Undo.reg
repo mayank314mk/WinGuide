@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Restore Bing Search
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=-
+
+; Restore Cortana and online search policies
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=-
+"ConnectedSearchUseWeb"=-
+"ConnectedSearchUseWebOverMeteredConnections"=-
