@@ -56,9 +56,9 @@ Included tweaks:
 
 ---
 
-## Screenshots
+## Preview
 
-> Add project screenshots here.
+![](public/assets/ss.png)
 
 ---
 
