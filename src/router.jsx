@@ -54,15 +54,18 @@ const router = createBrowserRouter([
                 element: <Installation />
             },
             {
-                path: "/tips/update",
+                path: "tips/update",
                 element: <Update />
             },
             {
-                path: "/tips/personalization",
+                path: "tips/personalization",
                 element: <Personalization />
             }
         ]
     }
-])
+],{
+    basename: "/WinGuide",
+  }
+)
 
 export default router
