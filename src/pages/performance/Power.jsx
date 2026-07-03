@@ -22,22 +22,22 @@ const Home = () => {
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">1. Open Control Panel → Power Options.</div>
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">2. Select High Performance.</div>
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">3. If the plan isn't visible, click Show additional plans.</div>
-            <img src="/assets/images/ss4.1.PNG" className='relative z-1 py-4' alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/ss4.1.PNG`} className='relative z-1 py-4' alt="" />
             
-            {/* <img src="/assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
           </div>
           <div className="art1 flex flex-col gap-1 items-start ">
             <div className="find font-[400] text-[22px]">Laptop (Windows 11)</div>
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">1. Open Settings → System → Power & battery.</div>
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">2. Set Power mode to Best Performance while the charger is plugged in.</div>
             {/* <div className="content text-[18px] text-[#dbdbdb] relative z-1">3. If the plan isn't visible, click Show additional plans.</div> */}
-            <img src="/assets/images/ss4.2.PNG" className='relative z-1 py-4' alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/ss4.2.PNG`} className='relative z-1 py-4' alt="" />
             
-            {/* <img src="/assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
           </div>
           {/* <div className="art2 flex flex-col gap-1 items-start">
             <div className="find font-[400] text-[22px]">Recommended Drivers</div>

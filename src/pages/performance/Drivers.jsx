@@ -20,17 +20,17 @@ const Home = () => {
           <div className="art1 flex flex-col gap-1 items-start ">
             <div className="find font-[400] text-[22px]">Find Your Device Model</div>
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">1. Press Win + R, type msinfo32, and press Enter.</div>
-            <img src="/assets/images/ss1.PNG" className='relative z-1 py-4' alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/ss1.PNG`} className='relative z-1 py-4' alt="" />
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">2. Note the following depending on your device:</div>
             <div className="pl-4 content text-[18px] text-[#dbdbdb] relative z-1">Desktop PC: BaseBoard Manufacturer and BaseBoard Product
             </div>
             <div className="pl-4 content text-[18px] text-[#dbdbdb] relative z-1">Laptop: System Manufacturer and System Model</div>
-            {/* <img src="/assets/images/ss1.1.PNG" className='relative z-1 ' alt="" /> */}
-            <img src="/assets/images/ss2.PNG" className='relative z-1 py-4' alt="" />
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss1.1.PNG" className='relative z-1 ' alt="" /> */}
+            <img src={`${import.meta.env.BASE_URL}assets/images/ss2.PNG`} className='relative z-1 py-4' alt="" />
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">Use these details to download drivers from your motherboard or laptop manufacturer's support page.</div>
-            {/* <img src="/assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
           </div>
           <div className="art2 flex flex-col gap-1 items-start">
             <div className="find font-[400] text-[22px]">Recommended Drivers</div>

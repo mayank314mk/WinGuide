@@ -27,13 +27,13 @@ const Performance = () => {
             {/* <div className="pl-4 content text-[18px] text-[#dbdbdb] relative z-1">Desktop PC: BaseBoard Manufacturer and BaseBoard Product
             </div>
             <div className="pl-4 content text-[18px] text-[#dbdbdb] relative z-1">Laptop: System Manufacturer and System Model</div> */}
-            {/* <img src="/assets/images/ss1.1.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.PNG" className='relative z-1 py-4' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss1.1.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.PNG" className='relative z-1 py-4' alt="" /> */}
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">3. Right-click unnecessary applications and choose Disable.</div>
-            <img src="/assets/images/ss3.PNG" className='relative z-1 py-4' alt="" />
-            {/* <img src="/assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
-            {/* <img src="/assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
+            <img src={`${import.meta.env.BASE_URL}assets/images/ss3.PNG`} className='relative z-1 py-4' alt="" />
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.2.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.1.PNG" className='relative z-1 ' alt="" /> */}
+            {/* <img src="${import.meta.env.BASE_URL}assets/images/ss2.3.PNG" className='relative z-1 ' alt="" /> */}
             <div className="content text-[18px] text-[#dbdbdb] relative z-1">Applications such as Discord, Spotify, Steam, Epic Games Launcher, Adobe Creative Cloud, Microsoft Teams, OneDrive (if you don't use it), and other applications that you don't need immediately after startup can be safely disabled.</div>
 
           </div>
