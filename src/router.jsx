@@ -63,9 +63,7 @@ const router = createBrowserRouter([
             }
         ]
     }
-],{
-    basename: "/WinGuide",
-  }
+]
 )
 
 export default router
