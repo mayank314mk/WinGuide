@@ -6,7 +6,7 @@ Designed primarily for beginners and low-end PC users, WinGuide offers easy-to-f
 
 # 🌐  Live Demo
 
-https://mayank314mk.github.io/WinGuide/
+https://winguide.vercel.app/
 
 
 
@@ -86,20 +86,6 @@ This project helped me strengthen my understanding of:
 - Static Asset Management
 - Project Organization
 - UI/UX Design
-
----
-
-## Installation
-
-```bash
-git clone <repository-url>
-
-cd winguide
-
-npm install
-
-npm run dev
-```
 
 ---
 
