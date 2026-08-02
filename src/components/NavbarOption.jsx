@@ -30,7 +30,7 @@ const NavbarOption = (props) => {
             flex items-center pl-6 ${props.props.first == 'Developed By: Mayank' ? 'text-[grey] font-[400] text-[14px] h-8 cursor-auto' : `h-12 ${!props.props.select.rightSelect ? 'hover:bg-[rgb(0,16,32)]' : 'hover:bg-[rgb(32,16,0)]'} `}`}>{props.props.first}</div>
       </a>}
 
-      {!isContact ? <div><NavLink to={"/tips/" + props.props.second.toLowerCase()} className={({ isActive }) =>
+      {!isContact && props.props.second!='' ? <div><NavLink to={"/tips/" + props.props.second.toLowerCase()} className={({ isActive }) =>
         isActive ? "text-[rgb(255,128,0)]" : ""}>
         <div style={{ transitionDelay: props.props.delay }} className={`justify-between font-[100] absolute w-full transition-[translate,opacity] duration-300  
           ${props.props.select.rightSelect

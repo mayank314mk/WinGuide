@@ -21,8 +21,8 @@ const Navbar = ({ select,  navOpened}) => {
         <NavbarOption props={{ select, first: "Drivers", second: "Installation", delay: "50ms" }} />
         <NavbarOption props={{ select, first: "Startup", second: "Update", delay: "75ms" }} />
         <NavbarOption props={{ select, first: "Power", second: "Personalization", delay: "100ms" }} />
-        <NavbarOption props={{ select, first: "Storage", second: "", delay: "125ms" }} />
-        <NavbarOption props={{ select, first: "Antivirus", second: "", delay: "150ms" }} />
+        <NavbarOption props={{ select, first: "Storage", second: '', delay: "125ms" }} />
+        <NavbarOption props={{ select, first: "Antivirus", second: '', delay: "150ms" }} />
         <NavbarOption props={{ select, first: "Github", second: "Github", delay: "200ms" }} />
         <NavbarOption props={{ select, first: "LinkedIn", second: "LinkedIn", delay: "250ms" }} />
         <NavbarOption props={{ select, first: "Developed By: Mayank", second: "Developed By: Mayank", delay: "300ms" }} />
