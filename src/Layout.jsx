@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react"
 import Navbar from "./components/Navbar";
 import { Outlet } from "react-router-dom";
 import { useState } from 'react'
@@ -16,7 +15,7 @@ function Layout() {
                 <Navbar navOpened={{navOpened,setnavOpened}} select={{ leftSelect, rightSelect }} />
                 <Outlet context={{navOpened,setnavOpened}}/>
             </div>
-            <Analytics/>
+
         </>
     );
 }
