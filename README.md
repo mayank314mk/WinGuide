@@ -50,9 +50,8 @@ Included tweaks:
 - React
 - React Router
 - JavaScript
+- Tailwind CSS
 - HTML5
-- CSS3
-- Vite
 
 ---
 
